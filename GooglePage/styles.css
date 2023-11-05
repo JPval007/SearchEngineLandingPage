@@ -1,9 +1,13 @@
+/* Here goes the root in where you usually declare variables */
+
+/* This part targets all the elements in the document */
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
+/* This targets the body of the document */
 body{
     background-color: #0f172a;
     color: #bdc1c6;
@@ -16,6 +20,7 @@ body{
     font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
+/* Don't confuse this with the head, the header is what shows at the top of the document */
 header {
     display: flex;
     align-items: center;
@@ -29,12 +34,14 @@ header section img {
     border: 2px solid cyan;
 }
 
+/* Sections are just another way to divide the page, like divs, but unlike them sections tell you that it is a section like a section of an article */
 nav,section {
     display: flex;
     align-items: center;
     gap: 14px;
 }
 
+/* Just adds color to the navigation links */
 .whiteLink {
     color: white;
 }
